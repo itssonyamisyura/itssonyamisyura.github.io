@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofia Misiura — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- ─── NAVIGATION ─── -->
+    <nav id="navbar">
+        <a href="#home" class="nav-logo">SM<span class="dot">.</span></a>
+        <button class="burger" id="burger" aria-label="Toggle menu">
+            <span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" data-nav>Home</a></li>
+            <li><a href="#about" data-nav>About</a></li>
+            <li><a href="#skills" data-nav>Skills</a></li>
+            <li><a href="#projects" data-nav>Projects</a></li>
+            <li><a href="#contact" data-nav>Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ─── HOME ─── -->
+    <section id="home" class="section hero">
+        <div class="hero-content">
+            <p class="hero-tag reveal">Available for work</p>
+            <h1 class="hero-title reveal">
+                Junior Frontend<br /><em>Developer</em>
+            </h1>
+            <p class="hero-sub reveal">
+                Building clean, responsive&nbsp;interfaces<br />
+                with React and modern web technologies.
+            </p>
+            <a href="#projects" class="btn reveal">View work ↓</a>
+        </div>
+        <div class="hero-deco" aria-hidden="true">
+            <span class="deco-line"></span>
+            <span class="deco-number">01</span>
+        </div>
+    </section>
+
+    <!-- ─── ABOUT ─── -->
+    <section id="about" class="section about">
+        <div class="section-header reveal">
+            <span class="section-num">02</span>
+            <h2 class="section-title">About me</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-photo reveal">
+                <div class="photo-frame">
+                    <div class="photo-placeholder">
+                        <img src="/resourses/" alt="Sofia">
+
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <p class="reveal">
+                    Hi — I'm <strong>Sofia</strong>, a frontend developer based in Prague.
+
+                    I recently graduated from the Czech University of Life Sciences and have been developing my
+                    skills through personal projects using React, TypeScript, modern JavaScript and modern CSS.
+                </p>
+                <p class="reveal">
+                    I have practical experience building web applications using React and TypeScript, working with APIs,
+                    and creating responsive, user-friendly interfaces.
+                    I focus on writing clean, maintainable code and continuously improving my skills.
+                </p>
+                <p class="reveal">
+                    I care about
+                    accessibility and writing code that are both intuitive for users and easy for developers to work
+                    with.
+                </p>
+                <a href="#" class="btn btn-outline reveal" download>Download CV →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── SKILLS ─── -->
+    <section id="skills" class="section skills">
+        <div class="section-header reveal">
+            <span class="section-num">03</span>
+            <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">⬡</div>
+                <h3>Frontend</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>HTML5 &amp; CSS3</li>
+                    <li>TypeScript</li>
+                </ul>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">◈</div>
+                <h3>Tooling</h3>
+                <ul>
+                    <li>Git &amp; GitHub</li>
+                    <li>Vite / Webpack</li>
+                    <li>NPM / Yarn</li>
+                    <li>GitHub Pages</li>
+                </ul>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">◎</div>
+                <h3>State & API</h3>
+                <ul>
+                    <li>Redux</li>
+                    <li>RESTful APIs</li>
+                    <li>Async / Await</li>
+                    <li>Data Fetching</li>
+                </ul>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">◇</div>
+                <h3>Development Approach</h3>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Clean Code</li>
+                    <li>Accessibility Basics</li>
+                    <li>UI/UX Awareness</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ─── PROJECTS ─── -->
+    <section id="projects" class="section projects">
+        <div class="section-header reveal">
+            <span class="section-num">04</span>
+            <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="projects-list">
+            <article class="project-item reveal">
+                <div class="project-meta">
+                    <span class="project-year">2025</span>
+                    <span class="project-tags">React · JavaScript · SCSS · REST API</span>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-name">Marvel App</h3>
+                    <p class="project-desc">
+                        React-based application for exploring Marvel characters and comics.
+                        Users can search characters, view detailed information, and navigate through dynamic content
+                        powered by the Marvel API.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/itssonyamisyura/marvel_app" class="link-arrow">GitHub ↗</a>
+                        <a href="https://itssonyamisyura.github.io/marvel_app/" class="link-arrow">Live demo ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-item reveal">
+                <div class="project-meta">
+                    <span class="project-year">2025</span>
+                    <span class="project-tags">React · Vite · React Router · SCSS</span>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-name">CoffeeShop</h3>
+                    <p class="project-desc">
+                        Modern e-commerce coffee shop application built with React and Vite.
+                        Users can browse products, view product details, manage a shopping cart, and complete a checkout
+                        flow.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/itssonyamisyura/CoffeeShop" class="link-arrow">GitHub ↗</a>
+                        <a href="https://itssonyamisyura.github.io/CoffeeShop/" class="link-arrow">Live demo ↗</a>
+                    </div>
+                </div>
+            </article>
+            <article class="project-item reveal">
+                <div class="project-meta">
+                    <span class="project-year">2026</span>
+                    <span class="project-tags">JavaScript · React · REST API</span>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-name">Crypto App</h3>
+                    <p class="project-desc">
+                        Cryptocurrency dashboard application built with React.
+                        Displays real-time market data, dynamic lists, and price information using external APIs.
+                    </p>
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/itssonyamisyura/react-crypto" class="link-arrow">GitHub ↗</a>
+                        <a href="https://itssonyamisyura.github.io/react-crypto/" class="link-arrow">Live demo ↗</a>
+                    </div>
+                </div>
+            </article>
+            <article class="project-item reveal">
+                <div class="project-meta">
+                    <span class="project-year">2025</span>
+                    <span class="project-tags">JavaScript · CSS · HTML · Interactive UI</span>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-name">Food Project</h3>
+                    <p class="project-desc">
+                        Interactive food delivery landing page with tabs, slider, forms,
+                        calorie calculator, and countdown timer. Built with vanilla JavaScript
+                        to practice DOM manipulation and dynamic UI behavior.
+                    </p>
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/itssonyamisyura/Food_project" class="link-arrow">GitHub ↗</a>
+                        <a href="https://itssonyamisyura.github.io/Food_project/" class="link-arrow">Live demo ↗</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section id="contact" class="section contact">
+        <div class="section-header reveal">
+            <span class="section-num">05</span>
+            <h2 class="section-title">Contact</h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-cta reveal">
+                <p>Looking for a frontend developer?<br />Let's build something great together.</p>
+                <a href="mailto:itssonyamisyura@gmail.com" class="btn">Get in touch ↗</a>
+            </div>
+            <div class="contact-links reveal">
+                <a href="mailto:alex@example.com" class="contact-row">
+                    <span class="c-label">Email</span>
+                    <span class="c-value">itssonyamisyura@gmail.com</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="contact-row">
+                    <span class="c-label">LinkedIn</span>
+                    <span class="c-value">in/sofia-misiura</span>
+                </a>
+                <a href="https://github.com" target="_blank" class="contact-row">
+                    <span class="c-label">GitHub</span>
+                    <span class="c-value">github.com/itssonyamisyura</span>
+                </a>
+                <a href="https://t.me" target="_blank" class="contact-row">
+                    <span class="c-label">Telegram</span>
+                    <span class="c-value">@itssonyamisyura</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="footer">
+        <span>© 2026 Sofia Misiura</span>
+        <span>Designed &amp; built by hand</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
