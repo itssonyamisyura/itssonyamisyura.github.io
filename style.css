@@ -19,8 +19,8 @@
   --ff-sans: 'DM Sans', system-ui, sans-serif;
 
   --nav-h: 64px;
-  --max-w: 1120px;
-  --pad: clamp(1.5rem, 5vw, 4rem);
+  --max-w: 1280px;
+  --pad: clamp(2rem, 6vw, 6rem);
 
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
